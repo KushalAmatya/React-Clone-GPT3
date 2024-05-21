@@ -30,12 +30,12 @@
     -webkit-background-clip: text ;
     -webkit-text-fill-color:  transparent;
 }
-.gpt3__navbar-links_container a:focus{
+/* .gpt3__navbar-links_container a:focus{
     background: var(--gradient-text);
     background-clip: text;
     -webkit-background-clip: text ;
     -webkit-text-fill-color:  transparent;
-}
+} */
 .gpt3__navbar-sign{
     display: flex;
     justify-content: flex-end;

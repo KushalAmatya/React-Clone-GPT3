@@ -1,14 +1,7 @@
 import React from "react";
 
-import {
-  Footer,
-  Blog,
-  Header,
-  Possibility,
-  WhatGPT3,
-  Features,
-} from "./containers";
-import { CTA, Brand, Navbar } from "./components";
+import { Footer, Header, WhatGPT3, Features } from "./containers";
+import { Brand, Navbar } from "./components";
 import "./App.css";
 
 export const App = () => {
@@ -18,12 +11,12 @@ export const App = () => {
         <Navbar />
         <Header />
       </div>
-      <Brand />
-      <WhatGPT3 />
-      <Features />
-      <Possibility />
-      <Blog />
-      <CTA />
+      <div className="gradient__bg2">
+        <Brand />
+        <WhatGPT3 />
+        <Features />
+      </div>
+
       <Footer />
     </div>
   );

@@ -2,6 +2,7 @@ import React from "react";
 
 import { Footer, Header, WhatGPT3, Features } from "./containers";
 import { Brand, Navbar } from "./components";
+import ScrollToTopButton from "./util/ScrollToTopButton";
 import "./App.css";
 
 export const App = () => {
@@ -16,7 +17,7 @@ export const App = () => {
         <WhatGPT3 />
         <Features />
       </div>
-
+      <ScrollToTopButton />
       <Footer />
     </div>
   );

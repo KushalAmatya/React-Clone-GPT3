@@ -23,7 +23,7 @@ const WhatGPT3 = () => (
       />
       <Feature
         title="Knowledgebase"
-        text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+        text="ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."
       />
       <Feature
         title="Education"
